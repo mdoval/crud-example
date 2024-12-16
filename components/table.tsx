@@ -17,8 +17,8 @@ export default function Table({ data }: { data: User[] }) {
           </tr>
         </thead>
         <tbody>
-          {data.map((data) => {
-            return <ItemTable user={data} />;
+          {data.map((data,index) => {
+            return <ItemTable key={index} user={data} />;
           })}
         </tbody>
       </table>

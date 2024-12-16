@@ -17,7 +17,7 @@ export default {
   },
   plugins: [
     require('daisyui'),
-    require("flyonui"),
-    require("flyonui/plugin"),
+    //require("flyonui"),
+    //require("flyonui/plugin"),
   ],
 } satisfies Config;
