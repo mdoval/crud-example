@@ -4,8 +4,8 @@ import Table from "@/components/table";
 import { getUsers } from "@/lib/actions";
 
 
-export default function Home() {
-  const users = getUsers();
+export default async function Home() {
+  const users = await getUsers();
 
   return (
     <div>

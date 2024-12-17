@@ -1,4 +1,3 @@
-import { unique } from "next/dist/build/utils";
 import { Profesion } from "./Profesion";
 
 export type User = {
